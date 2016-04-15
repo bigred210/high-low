@@ -18,7 +18,7 @@ do {
         echo "Guess Higher\n";
         $guess = trim(fgets(STDIN));
     }
-    elseif {
+    else {
         echo "YOU DID IT!\n";
         $guess = trim(fgets(STDIN));
     }
